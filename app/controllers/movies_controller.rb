@@ -6,7 +6,7 @@ def add_user_bookmark
   b.movie_id =  params.fetch("the_movie_id")
   b.save
 
-  redirect_to "/"
+  redirect_to("/")
 end 
  
   def index
