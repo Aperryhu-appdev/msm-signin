@@ -9,9 +9,6 @@
 <%#Tryna add a bookie%>
 
 <form action="/add_bookmark">
-User:
-<input type="hidden" name= "the_user_id" value="<%= session.fetch(:user_id)%>">
-Movie:
 <input type="hidden" name="the_movie_id" value="<%= @the_movie%>">
 <button>Bookmark this movie!</button>
 </form>
